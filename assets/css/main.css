@@ -8719,7 +8719,7 @@ input[type="color"] {
   font-size: 15px;
   line-height: 23px;
   text-transform: uppercase;
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 .tp-backtop i {
   width: 42px;
