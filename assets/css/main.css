@@ -1,10 +1,5 @@
 /*-----------------------------------------------------------------------------------
 
-    Theme Name: Donafund - NonProfit Charity Html Template
-    Author: Theme_Pure
-    Support: basictheme@gmail.com
-    Description: Donafund - NonProfit Charity Html Template
-    Version: 1.0
 
 -----------------------------------------------------------------------------------
 
@@ -93,7 +88,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 /*---------------------------------
 	typography css start 
 ---------------------------------*/
