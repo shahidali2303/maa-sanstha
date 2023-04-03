@@ -594,7 +594,14 @@ input[type="color"] {
 .grayscale {
   /* filter: grayscale(100%); */
 }
-
+.imagecontainer img {
+  border-radius: 20px;
+}
+@media (min-width: 1024px) {
+  .imagecontainer {
+    padding-top: 80px;
+  }
+}
 /*--
     - Spacing
 -----------------------------------------*/
@@ -3053,11 +3060,11 @@ input[type="color"] {
 .team-social a svg {
   transform: translateY(-2px);
 }
-.team-social a:hover {
+/* .team-social a:hover {
   background: #fff;
   color: #121212;
-}
-.team__img::before {
+} */
+/* .team__img::before {
   position: absolute;
   content: "";
   height: 0;
@@ -3069,7 +3076,7 @@ input[type="color"] {
   width: 100%;
   bottom: 0;
   border-radius: 15px;
-}
+} */
 
 @media (max-width: 575px) {
   .team-btn .tp-btn-black {
